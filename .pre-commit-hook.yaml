@@ -1,0 +1,7 @@
+- id: shellcheck-system
+  name: ShellCheck (system)
+  description: Find bugs in your Shell scripts!
+  entry: shellcheck
+  language: system
+  types:
+    - shell
