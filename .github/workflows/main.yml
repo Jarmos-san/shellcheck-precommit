@@ -1,0 +1,14 @@
+name: Code Quality Checks
+
+on: push
+
+jobs:
+  codeQualityChecks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      # TODO: Update this section of the job
+      - name: Run code quality checks
+        run: echo: Code Quality Checks
