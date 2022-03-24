@@ -1,4 +1,4 @@
-# ShellCheck Pre-Commit Hook
+# ✅ ShellCheck Pre-Commit Hook
 
 This is the **unofficial**
 [pre-commit hook](https://pre-commit.com/#adding-pre-commit-plugins-to-your-project)
@@ -9,7 +9,7 @@ shell scripts.
 [official](https://github.com/koalaman/shellcheck-precommit) pre-commit hook for
 ShellCheck in case you prefer using that.
 
-## Usage Guide
+## 📜 Usage Guide
 
 Like any other [pre-commit](https://pre-commit.com) hooks adding this specific
 hook is as easy as configuring your project's `.pre-commit-config.yaml` file.
@@ -18,12 +18,12 @@ Simply add the following content to it & you're good to go!
 ```yaml
 repos:
   - repo: https://github.com/Jarmos-san/shellcheck-precommit
-    rev: v0.0.1
+    rev: v0.1.0
     hooks:
       - id: shellcheck-system
 ```
 
-## Difference Between the Official Hook
+## 🗂️ Difference Between the Official Hook
 
 The official hook provided by the author of ShellCheck uses
 [Docker](https://www.docker.com/) to build the tool. At the time of creating
@@ -35,3 +35,14 @@ That said, this hook will have Docker support as well in the future but not any
 time soon.
 
 TLDR: Use the official hook if you need explicit Docker support
+
+## 🎆 Features To-Be-Added Later
+
+This hook isn't complete yet & I would prefer it to be a one-stop solution for
+all "_shellcheck_" requirements. As such following features will be added at
+some point in time considering I continue to have the interest & availability of
+time.
+
+- Support both [ShellCheck](https://www.shellcheck.net) & [`shfmt`](https://github.com/mvdan/sh#shfmt) for the user to choose either one.
+- Allow Docker support for both the tools of choice!
+- Enable an option to build `shfmt` if the user wants to.
