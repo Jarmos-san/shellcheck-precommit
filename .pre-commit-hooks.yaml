@@ -1,7 +1,5 @@
 - id: shellcheck-system
-  name: ShellCheck (system)
-  description: Find bugs in your Shell scripts!
+  name: find bugs in your shell scripts.
+  description: statically checks your shell scripts for errors & potential bugs
   entry: shellcheck
   language: system
-  types:
-    - shell
