@@ -9,7 +9,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - names: Run Prettier to format code
+      - name: Run Prettier to format code
         uses: actionsx/prettier@v2
         with:
           args: --write .
