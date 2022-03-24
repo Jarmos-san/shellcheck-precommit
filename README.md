@@ -1,6 +1,9 @@
 # ✅ ShellCheck Pre-Commit Hook
 
 [![Code Quality Checks](https://github.com/Jarmos-san/shellcheck-precommit/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/Jarmos-san/shellcheck-precommit/actions/workflows/main.yml)
+![GitHub repo size](https://img.shields.io/github/repo-size/Jarmos-san/shellcheck-precommit?label=Repo%20Size&logo=github&style=flat-square)
+![GitHub](https://img.shields.io/github/license/Jarmos-san/shellcheck-precommit?color=github&label=License&logo=github&style=flat-square)
+![Twitter Follow](https://img.shields.io/twitter/follow/Jarmosan?style=social)
 
 This is the **unofficial**
 [pre-commit hook](https://pre-commit.com/#adding-pre-commit-plugins-to-your-project)
@@ -45,6 +48,8 @@ all "_shellcheck_" requirements. As such following features will be added at
 some point in time considering I continue to have the interest & availability of
 time.
 
-- Support both [ShellCheck](https://www.shellcheck.net) & [`shfmt`](https://github.com/mvdan/sh#shfmt) for the user to choose either one.
+- Support both [ShellCheck](https://www.shellcheck.net) &
+  [`shfmt`](https://github.com/mvdan/sh#shfmt) for the user to choose either
+  one.
 - Allow Docker support for both the tools of choice!
 - Enable an option to build `shfmt` if the user wants to.
