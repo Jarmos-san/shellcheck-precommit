@@ -74,7 +74,7 @@ That said, following are some ways you can support the project:
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H567ZQH)
 
-## Licensing Terms & Conditions
+## 📄 Licensing Terms & Conditions
 
 This project is licensed under the terms & conditions (T&Cs) of the MIT License. But for more details on the same, refer to the [LICENSE](./LICENSE) document.
 
