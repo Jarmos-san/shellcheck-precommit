@@ -3,4 +3,5 @@
   description: statically checks your shell scripts for errors & potential bugs
   entry: shellcheck
   language: system
-  types: shell
+  types:
+    - shell
