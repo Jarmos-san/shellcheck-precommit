@@ -11,4 +11,4 @@ jobs:
 
       # TODO: Update this section of the job
       - name: Run code quality checks
-        run: echo: Code Quality Checks
+        run: echo Code Quality Checks
