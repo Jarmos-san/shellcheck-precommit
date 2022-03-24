@@ -1,5 +1,7 @@
 # ✅ ShellCheck Pre-Commit Hook
 
+[![Code Quality Checks](https://github.com/Jarmos-san/shellcheck-precommit/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/Jarmos-san/shellcheck-precommit/actions/workflows/main.yml)
+
 This is the **unofficial**
 [pre-commit hook](https://pre-commit.com/#adding-pre-commit-plugins-to-your-project)
 for [ShellCheck](https://www.shellcheck.net/), the static analysis tool for
