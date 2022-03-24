@@ -53,3 +53,34 @@ time.
   one.
 - Allow Docker support for both the tools of choice!
 - Enable an option to build `shfmt` if the user wants to.
+
+## 👋 Supporting the Project
+
+The project however small it maybe tries to adhere to the community's needs.
+Hence, it wouldn't be in the position it is today, so feel free to support the
+project.
+
+That said, following are some ways you can support the project:
+
+1. I don't always have to time iron out all irregularities of the project, so if
+   you stumble across a bug or two, please feel free to either report or send a
+   bug fix PR.
+2. If the project helped you in any way or if you're using it to build a
+   commercial project, consider sending a token appreciation (like a book or
+   something).
+3. Feel free to the star the project and/or share it with people you know will
+   find it helpful. Spreading word about the project around the community is
+   equally as helpful as the other tasks mentioned above.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H567ZQH)
+
+## Licensing Terms & Conditions
+
+This project is licensed under the terms & conditions (T&Cs) of the MIT License. But for more details on the same, refer to the [LICENSE](./LICENSE) document.
+
+Additionally, the following tools used with this project has their own T&Cs and respective license. So, please refer to those in the URLs shared below:
+
+- [pre-commit](https://github.com/pre-commit/pre-commit)
+- [shellcheck](https://github.com/koalaman/shellcheck)
+
+_...more such tools will be added as & when they're provided._
