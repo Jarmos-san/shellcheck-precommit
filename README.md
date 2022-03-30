@@ -26,6 +26,10 @@ repos:
     rev: v0.1.0
     hooks:
       - id: shellcheck-system
+      # args: [-S SEVERITY]
+
+      # use either shfmt or shellcheck to avoid clashing styling guides
+      # id: shfmt-system
 ```
 
 ## 🗂️ Difference Between the Official Hook
