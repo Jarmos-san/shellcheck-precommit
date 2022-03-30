@@ -5,3 +5,11 @@
   language: system
   types:
     - shell
+
+- id: shfmt-system
+  name: Format your shell scripts.
+  description: Unclutter your Shell scripts with shfmt!
+  entry: shfmt
+  language: system
+  types:
+    - shell
